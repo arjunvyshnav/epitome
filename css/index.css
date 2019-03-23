@@ -1,0 +1,194 @@
+body {
+    padding: 0px;
+    margin: 0px;
+}
+
+html {
+    font-size: 62.5%;
+    font-family: serif;
+}
+
+body {
+    font-size: 1.8rem;
+    line-height: 1.618;
+    margin: auto;
+    color: #4a4a4a;
+    background-color: #f9f9f9;
+}
+
+.content-section {
+    padding: 13px;
+    max-width: 38em;
+}
+
+@media (max-width: 684px) {
+    body {
+        font-size: 1.53rem;
+    }
+}
+
+@media (max-width: 382px) {
+    body {
+        font-size: 1.35rem;
+    }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    line-height: 1.1;
+    font-family: Verdana, Geneva, sans-serif;
+    font-weight: 700;
+    overflow-wrap: break-word;
+    word-wrap: break-word;
+    -ms-word-break: break-all;
+    word-break: break-word;
+    -ms-hyphens: auto;
+    -moz-hyphens: auto;
+    -webkit-hyphens: auto;
+    hyphens: auto;
+}
+
+h1 {
+    font-size: 2.35em;
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.75em;
+}
+
+h4 {
+    font-size: 1.5em;
+}
+
+h5 {
+    font-size: 1.25em;
+}
+
+h6 {
+    font-size: 1em;
+}
+
+.header-image {
+    width: 100hw;
+    /*or 70%, or what you want*/
+    height: 200px;
+    /*or 70%, or what you want*/
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+blockquote {
+    margin: 20px 0;
+    padding-left: 1.5rem;
+    border-left: 5px solid #B71C1C;
+    /* Just change the color value and that's it*/
+}
+
+.introduction {
+    height: 90vh;
+    width: 100%;
+    background: url('../images/aimit.png');
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    padding-left: 100px;
+    padding-right: 220px;
+}
+
+.home-media {
+    -webkit-clip-path: polygon(50% 0%, 100% 0, 50% 100%, 0% 100%);
+    clip-path: polygon(50% 0%, 100% 0, 50% 100%, 0% 100%);
+    max-width: 1044px;
+    overflow: hidden;
+    height: 100vh;
+    width: auto;
+    position: absolute;
+    left: 35%;
+}
+
+.editable {
+    height: 100vh;
+    width: 100%;
+    font-size: 16px;
+}
+
+#hiring-partners {
+    background-image: url('../images/recruiter-bg.png');
+    background-size: cover;
+}
+
+.deep-blue-light-blue-box {
+    background: linear-gradient(135deg, #0C2340 55.8%, #193456 40%);
+}
+
+.light-blue-deep-blue-box {
+    background: linear-gradient(135deg, #193456 55.8%, #0C2340 40%);
+}
+
+.nav {
+    background-color: #ffffff !important;
+    opacity: .8;
+}
+
+.silver-white-box {
+    background: linear-gradient(135deg, #e6e6e7 20%, #ffffff 80%);
+}
+
+.box {
+    position: relative;
+    padding: 50px 100px;
+    overflow: hidden;
+}
+
+
+/*e6e6e7*/
+
+.white-red-box {
+    background: linear-gradient(135deg, #fff 80%, #B71C1C 20%);
+}
+
+.row {
+    margin-bottom: 0px;
+}
+
+footer {
+    overflow: hidden;
+    position: fixed;
+    z-index: 1;
+    bottom: 0;
+    left: 50%;
+    opacity: 0;
+    width: 100%;
+    padding: 60px 0 10px;
+    color: #999;
+    background-color: #0c2340;
+    transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+}
+
+.deeper-blue {
+    background: #0C2340;
+}
+
+.shift-blue {
+    background: #193456;
+}
+
+.dropdown-content {
+    overflow: visible !important;
+}

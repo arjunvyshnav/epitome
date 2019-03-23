@@ -1,0 +1,32 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 26 Mar, 2018, 7:58:52 PM
+    Author     : Agni Shadow
+*/
+.wrapper { 
+    overflow:hidden;
+}
+
+.wrapper div {
+    padding: 10px;
+}
+#one {
+    float:left; 
+    margin-right:20px;
+    width:50%;
+}
+#two { 
+    overflow:hidden;
+}
+
+@media screen and (max-width: 400px) {
+    #one { 
+        float: none;
+        margin-right:0;
+        width:auto;  
+    }
+}   

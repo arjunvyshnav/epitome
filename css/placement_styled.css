@@ -1,0 +1,105 @@
+.body {
+	font: 400 15px/1.8 Lato, sans-serif;
+	background-color: #515151;
+	padding-top: 5px;
+	color:black;
+}
+table tr td th{
+	color:black;
+}
+.body .sidenav {
+	height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #1B1B1B;
+	border-right-color: #373232;
+	border-right-style: solid;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+}
+.body .sidenav h4 {
+    padding: 6px 8px 6px 10px;
+    text-decoration: none;
+    font-size: 25px;
+	background-color: #282828;
+	border-top-color: #2F2F2F;
+	border-bottom-color: #2F2F2F;
+	border-style: solid none solid none;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+}
+.body .sidenav a {
+    padding: 1px 8px 3px 10px;
+    text-decoration: none;
+    font-size: 18px;
+    color: #818181;
+    display: block;
+    transition: 0.3s;
+	cursor: pointer !important;
+}
+.body .sidenav a:hover {
+    color: #f1f1f1;
+	background-color: #2F2F2F;
+}
+.body .sidenav .btn {
+	margin: 6px 8px 3px 10px;
+	padding: 6px;
+}
+.body .nav-btn-pos {
+	margin-left: -15px !important;
+	position: fixed !important;
+	background-color: rgba(193,193,193,0.81);
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+.body .nav-btn {
+	cursor: pointer !important;
+}
+.body #main {
+    transition: margin-left .5s;
+    padding: 16px;
+}
+.body .main-content {
+	padding-left: 18px !important;
+}
+.body .btn-custom {
+	color: #EBEBEB;
+	background-color: #242424;
+}
+.body .btn-custom:hover, .body .btn-custom:active, .body .btn-custom:focus {
+	color: #D4D4D4;
+	background-color: #363636;
+}
+.body .btn-custom-close {
+	color: #EBEBEB;
+}
+.body .btn-custom-close:hover {
+	color: #D4D4D4;
+}
+.body .modal-header {
+	color: #EBEBEB;
+	background-color: #242424;
+}
+.body .form-group {
+	margin: 0px 0px 25px 0px !important; 
+}
+.body h4 {
+	font-weight: bold;
+}
+.body .input-sh {
+	display: inline !important;
+	width: 70px;
+	margin: 5px 0px 10px 0px;
+}
+.body .pg-font {
+	font-size: 12px;
+}
+@media screen and (max-height: 450px) {
+  .body .sidenav {padding-top: 15px;}
+  .body .sidenav a {font-size: 18px;}
+}

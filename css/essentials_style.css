@@ -1,0 +1,102 @@
+.header {
+    background-color: #249CFF;
+    color: white;
+    font-size: 1.5em;
+    padding: 1rem;
+    text-align: center;
+    text-transform: uppercase;
+}
+.etable {
+    width: 50%;
+    border: 1px solid #249CFF;
+    margin:1em auto;
+    border-radius:10px;
+     -webkit-box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    box-shadow: 3px 3px 0 rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+}
+.table-users {
+    overflow: hidden;
+    width: auto;
+    background-repeat:repeat;
+}
+.etable td, .etable th {
+    color: #249CFF;
+    padding: 10px;
+}
+.etable td {
+    text-align: center;
+    vertical-align: middle;
+}
+.etable td:last-child {
+    font-size: 0.95em;
+    line-height: 1.4;
+    text-align: left;
+}
+.etable th {
+    background-color: white;
+    font-weight: 300;
+    font-weight:bold;
+    text-align: center;
+    vertical-align: middle;
+}
+.etable tr:hover td{
+    background-color: #249CFF;
+    color: white;
+}
+
+.etable tr:hover .anchorlink {
+ background-color: inherit ;
+} 
+
+.etable tr:hover .anchorlink:link {
+ color: white ;
+}
+.etable tr:hover .anchorlink:visited {
+ color: white ;
+} 
+.etable tr:nth-child(2n) {
+    background-color: white;
+}
+.etable tr:nth-child(2n+1) {
+    background-color: white;
+}
+
+.anchorlink{
+    background-color: inherit;
+}
+
+.anchorlink:link{
+    color: #249CFF ;
+}
+.anchorlink:visited{
+    color: #249CFF;
+}
+.upload-btn-wrapper {
+  position: relative;
+  overflow: hidden;
+}
+
+.upload-btn-wrapper input[type=file] {
+  font-size: 100px;
+  position: absolute;
+  left: 0;
+  top: 0;
+  opacity: 0;
+}
+.btn-back{
+    background: #249CFF;
+    margin: 20px;
+    float: left;
+    border:0px;
+    color:#fff;
+    box-shadow: 0 0 1px #ccc;
+    -webkit-transition-duration: 0.5s;
+    -webkit-transition-timing-function: linear;
+    box-shadow:0px 0 0 #31708f  inset;
+}
+.btn-back:hover{
+    -webkit-box-shadow: -100px 0 0 #3199d4 inset;
+    color: white;
+    font-weight: bolder;
+}
